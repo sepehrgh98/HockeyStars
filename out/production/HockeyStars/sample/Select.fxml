@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="388.0" prefWidth="654.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SelectController">
+   <children>
+      <ImageView fitHeight="411.0" fitWidth="653.0" layoutX="1.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Res/img/8.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Versusbtn" layoutX="179.0" layoutY="183.0" mnemonicParsing="false" onAction="#VersusOnaction" text="Versus" />
+      <Button fx:id="Computerplaybtn" layoutX="394.0" layoutY="180.0" mnemonicParsing="false" onAction="#ComputerplayOnaction" text="Computer play" />
+   </children>
+</AnchorPane>

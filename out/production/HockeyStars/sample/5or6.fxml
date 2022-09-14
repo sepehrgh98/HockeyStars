@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Or6Controller">
+   <children>
+      <ImageView fitHeight="474.0" fitWidth="723.0" layoutX="-54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Res/img/21.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="428.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Res/img/bg5-2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="428.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Res/img/bg6-1.jpg" />
+         </image>
+      </ImageView>
+      <RadioButton layoutX="335.0" layoutY="94.0" mnemonicParsing="false" onAction="#FiveBulls" text="5 Bulls" />
+      <RadioButton layoutX="335.0" layoutY="262.0" mnemonicParsing="false" onAction="#SixBulls" text="6 Bulls" />
+   </children>
+</AnchorPane>

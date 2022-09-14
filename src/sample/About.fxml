@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@About.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AboutController">
+   <children>
+      <Text layoutX="14.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello dear Player ;  Our programming project is about HOCKEY STARS. we are a programming team and our team has written this game. we hope you enjoy this game!   The name of the group are in alphabetical order:        Mohammad Javad Gholami   /                              Mohammad Fetrat Gharebagh   /    Sepehr Ghamari .                                                                                                                                                                         Hope to meet ! " wrappingWidth="348.9107187986374" />
+   </children>
+</AnchorPane>
